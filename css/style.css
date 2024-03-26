@@ -125,16 +125,19 @@ video {
   min-height: 100%;
   transform: translateX(calc((100% - 100vw) / 2));
   overflow:clip;
-
+  opacity:0.5;
 }
 
 
-  .socialButton {
-    padding:1rem;
-    background-color:red;
-    height: 80px;
-    width: 80px;
-  }
+.pageContainer {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+}
 
 .contContainer {
 
@@ -144,12 +147,23 @@ video {
   align-content: center;
   justify-content: center;
   position:relative;
-  width:20rem;
-  max-width:100%;
+  width:30rem;
+  max-width:90%;
   height:100vh;
   margin-left:auto;
   margin-right:auto;
 
+}
+
+#logoImg {
+  width:100%;
+}
+
+.socialButton {
+  padding:1rem;
+  /* background-color:red; */
+  height: 80px;
+  width: 80px;
 }
 
 
@@ -157,12 +171,12 @@ video {
 
   .socialButton {
     padding:1rem;
-    background-color:blue;
+    /* background-color:blue; */
     height: 5rem;
     width: 5rem;
   }
 
-  .contContainer {
+  /* .contContainer {
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -172,15 +186,15 @@ video {
     width:20rem;
     max-width: 100%;
     height:100vh;
-    padding-left:auto;
-    padding-right:auto;
+  } */
+
 }
 
 @media (min-width: 992px) {
 
   .socialButton {
     padding:1rem;
-    background-color:teal;
+    /* background-color:teal; */
     height: 5rem;
     width: 5rem;
   }
@@ -192,7 +206,7 @@ video {
 
   .socialButton {
     padding:1rem;
-    background-color:green;
+    /* background-color:green; */
     height:5rem;
     width: 5rem;
   }
@@ -201,17 +215,9 @@ video {
 
 
 
-.pageContainer {
 
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  /* position:relative; */
-  width:100vw;
-  height:100vh;
-}
+
+
 
 
 
