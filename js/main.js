@@ -16,8 +16,8 @@ window.onload = function () {
     bgVid = document.getElementById("bgVid");
 
     // bgVid.onload = function () {
-        console.log("hi")
-        bgVid.play();
+        // console.log("hi")
+        // bgVid.play();
     // }
 
     
