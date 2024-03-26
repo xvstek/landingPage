@@ -29,7 +29,7 @@ body {
 
 
 p {
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
   font-size: 1rem;
   text-align: center;
 }
@@ -125,7 +125,7 @@ video {
   min-height: 100%;
   transform: translateX(calc((100% - 100vw) / 2));
   overflow:clip;
-  opacity:0.5;
+  opacity:0.2;
 }
 
 
@@ -140,7 +140,6 @@ video {
 }
 
 .contContainer {
-
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -152,7 +151,14 @@ video {
   height:100vh;
   margin-left:auto;
   margin-right:auto;
+}
 
+.linksbar {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 #logoImg {
@@ -166,6 +172,10 @@ video {
   width: 80px;
 }
 
+.email {
+  margin:3rem 0 0 0;
+  font-style: italic;
+}
 
 @media (min-width: 600px) {
 
