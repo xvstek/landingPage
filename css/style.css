@@ -125,7 +125,7 @@ video {
   min-height: 100%;
   transform: translateX(calc((100% - 100vw) / 2));
   overflow:clip;
-  opacity: 1;
+  opacity: .6;
 }
 
 
